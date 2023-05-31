@@ -13,9 +13,9 @@ public class Pawn extends ChessPiece{
         this.color = color;
         this.moved = false;
         if (color == Color.BLACK) {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/black/pawn.png");
+            this.pieceImage = new Image("file:src/main/resources/images/black/pawn.png");
         } else {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/white/pawn.png");
+            this.pieceImage = new Image("file:src/main/resources/images/white/pawn.png");
         }
 
     }

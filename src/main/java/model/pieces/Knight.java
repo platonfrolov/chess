@@ -11,9 +11,9 @@ public class Knight extends ChessPiece{
         this.pieceName = "knight";
         this.color = color;
         if (color == Color.BLACK) {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/black/knight.png");
+            this.pieceImage = new Image("file:src/main/resources/images/black/knight.png");
         } else {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/white/knight.png");
+            this.pieceImage = new Image("file:src/main/resources/images/white/knight.png");
         }
 
     }

@@ -11,9 +11,9 @@ public class Bishop extends ChessPiece{
         this.pieceName = "bishop";
         this.color = color;
         if (color == Color.BLACK) {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/black/bishop.png");
+            this.pieceImage = new Image("file:src/main/resources/images/black/bishop.png");
         } else {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/white/bishop.png");
+            this.pieceImage = new Image("file:src/main/resources/images/white/bishop.png");
         }
     }
 

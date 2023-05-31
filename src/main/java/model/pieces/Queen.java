@@ -11,9 +11,9 @@ public class Queen extends ChessPiece{
         this.pieceName = "queen";
         this.color = color;
         if (color == Color.BLACK) {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/black/queen.png");
+            this.pieceImage = new Image("file:src/main/resources/images/black/queen.png");
         } else {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/white/queen.png");
+            this.pieceImage = new Image("file:src/main/resources/images/white/queen.png");
         }
 
     }

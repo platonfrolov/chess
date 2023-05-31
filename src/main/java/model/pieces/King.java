@@ -11,9 +11,9 @@ public class King extends ChessPiece{
         this.pieceName = "king";
         this.color = color;
         if (color == Color.BLACK) {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/black/king.png");
+            this.pieceImage = new Image("file:src/main/resources/images/black/king.png");
         } else {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/white/king.png");
+            this.pieceImage = new Image("file:src/main/resources/images/white/king.png");
         }
     }
 

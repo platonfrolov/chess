@@ -11,9 +11,9 @@ public class Rook extends ChessPiece{
         this.pieceName = "rook";
         this.color = color;
         if (color == Color.BLACK) {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/black/rook.png");
+            this.pieceImage = new Image("file:src/main/resources/images/black/rook.png");
         } else {
-            this.pieceImage = new Image("file:/home/plfro/programming/chess/src/main/resources/images/white/rook.png");
+            this.pieceImage = new Image("file:src/main/resources/images/white/rook.png");
         }
     }
 
